@@ -1,6 +1,6 @@
 import { Router } from "express";
 import healthRouter from './health.router'
-import pessoa from './pessoa.route'
+import pessoa from './pessoa.router'
 
 const router = Router();
 
