@@ -1,6 +1,12 @@
 import pessoaRepository from '../repositories/pessoa.repository';
 import { IPessoa, Pessoa } from '../models/pessoa.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const jwtSecret = process.env.JWT_SECRET_KEY || "drjkognertjghnertfkjon";
 
 
 
@@ -27,7 +33,11 @@ class PessoasServices {
 
         const result = await bcrypt.compare(senha, pessoa.senha);
 
-        if(result) return pessoa;
+        if(result){
+            return jwt.sign({ cpf: pessoa.cpf, _id: pessoa._id},jwtSecret, {
+                expiresIn: '2h'
+            });
+        }
         
         throw new Error('Acesso Negado, falha na autorização')
     }
