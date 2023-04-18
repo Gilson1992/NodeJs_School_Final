@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "643b41ad5051e9e0c0b26c1c"
+  },
+  "nome": "Izabel Damasceno",
+  "cpf": "675.654.351-89",
+  "email": "izabel.damasceno@email.com",
+  "genero": "feminino",
+  "idade": 25,
+  "senha": "$2b$10$rUlgO2AH7ZQQLgLEFFkPM.Eeh2bWo186Wjj4f2dostuWxgVHaadfK",
+  "createdAt": {
+    "$date": "2023-04-16T00:28:25.909Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643c67cf9fde12e9aa589194"
+  },
+  "nome": "Vital Damasceno",
+  "cpf": "111.654.895-89",
+  "email": "vital.damasceno@email.com",
+  "genero": "Masculino",
+  "idade": 30,
+  "senha": "$2b$10$zk81ycELMaaCtKM.rxkBfO3MFg2/DReGTFDM6PFBH.w10B3UCXz12",
+  "createdAt": {
+    "$date": "2023-04-16T00:28:25.909Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643c6b3c9fde12e9aa58919b"
+  },
+  "nome": "Fulano de Tal",
+  "cpf": "12345678901",
+  "email": "fulano@example.com",
+  "genero": "Masculino",
+  "idade": 30,
+  "senha": "senha123",
+  "createdAt": {
+    "$date": "2023-04-16T21:21:23.071Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643c6b3c9fde12e9aa58919c"
+  },
+  "nome": "Ciclana da Silva",
+  "cpf": "98765432109",
+  "email": "ciclana@example.com",
+  "genero": "Feminino",
+  "idade": 25,
+  "senha": "senha456",
+  "createdAt": {
+    "$date": "2023-04-16T21:21:23.071Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643c6b3c9fde12e9aa58919d"
+  },
+  "nome": "Beltrana Oliveira",
+  "cpf": "45678912304",
+  "email": "beltrana@example.com",
+  "genero": "Feminino",
+  "idade": 40,
+  "senha": "senha789",
+  "createdAt": {
+    "$date": "2023-04-16T21:21:23.071Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ca51a663574f499c6320b"
+  },
+  "nome": "Fulano de Tal",
+  "cpf": "12345678901",
+  "email": "fulano@example.com",
+  "genero": "Masculino",
+  "idade": 30,
+  "senha": "senha123",
+  "createdAt": {
+    "$date": "2023-04-17T01:44:15.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ca51a663574f499c6320c"
+  },
+  "nome": "Ciclana da Silva",
+  "cpf": "98765432109",
+  "email": "ciclana@example.com",
+  "genero": "Feminino",
+  "idade": 25,
+  "senha": "senha456",
+  "createdAt": {
+    "$date": "2023-04-17T01:44:15.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ca51a663574f499c6320d"
+  },
+  "nome": "Beltrana Oliveira",
+  "cpf": "45678912304",
+  "email": "beltrana@example.com",
+  "genero": "Feminino",
+  "idade": 40,
+  "senha": "senha789",
+  "createdAt": {
+    "$date": "2023-04-17T01:44:15.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643df5a9bb8319831de48aef"
+  },
+  "nome": "gilson de Tal",
+  "cpf": "123456789012",
+  "email": "gfulano@example.com",
+  "genero": "Masculino",
+  "idade": 31,
+  "senha": "senha1234",
+  "createdAt": {
+    "$date": "2023-04-18T01:36:20.949Z"
+  },
+  "__v": 0
+}]

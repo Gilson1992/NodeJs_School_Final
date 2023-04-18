@@ -1,25 +1,25 @@
 import { Cardapio, ICardapio } from "../models/cardapio.model";
 
 
-class CardapioRepository{
-    getAll(){
+class CardapioRepository {
+    getAll() {
         return Cardapio.find();
     }
 
-    getByDocument(tipo_lanche: string){
+    getByDocument(tipo_lanche: string) {
         return Cardapio.findOne({ tipo_lanche: tipo_lanche })
     }
 
-    create(cardapio: ICardapio){
+    create(cardapio: ICardapio) {
         return Cardapio.create(cardapio);
     }
 
-    update(nome: string, preco: Partial<ICardapio>){
-        return Cardapio.updateOne({ nome: nome }, { $set: preco });
+    update(nome: string, cardapio: Partial<ICardapio>) {
+        return Cardapio.updateOne({ nome: nome }, { $set: cardapio });
     }
 
-    remove(nome: string){
-        return Cardapio.deleteOne({ nome: nome});
+    remove(nome: string) {
+        return Cardapio.deleteOne({ nome: nome });
     }
 }
 

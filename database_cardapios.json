@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "643df8c895553c0fee7df866"
+  },
+  "tipo_lanche": "Hamburguer",
+  "nome": "X-Burger",
+  "preco": 12.5,
+  "ingredientes": "pãohamburguer/carnehamburguer/queijo",
+  "createdAt": {
+    "$date": "2023-04-18T01:56:21.682Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643e039dec7e8ad42316d6d1"
+  },
+  "tipo_lanche": "Sanduiche",
+  "nome": "Misto Quente",
+  "preco": 7,
+  "ingredientes": "pão de forma/queijo/presunto",
+  "createdAt": {
+    "$date": "2023-04-18T02:42:27.416Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ec15dee902becc3c4530e"
+  },
+  "tipo_lanche": "Sanduiche",
+  "nome": "Frango Assado",
+  "preco": 50,
+  "ingredientes": "pão francês/filé de frango grelhado/alface tomate",
+  "createdAt": {
+    "$date": "2023-04-18T16:11:56.785Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ec5306236d6cde599596a"
+  },
+  "tipo_lanche": "Bebida",
+  "nome": "Coca-cola 2L",
+  "preco": 12,
+  "ingredientes": "Refrigerante Coca",
+  "createdAt": {
+    "$date": "2023-04-18T16:27:14.433Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643ed6f50412aec07863dc7a"
+  },
+  "tipo_lanche": "Bebida",
+  "nome": "Suco Laranja 1L",
+  "preco": 8.5,
+  "ingredientes": "Laranja",
+  "createdAt": {
+    "$date": "2023-04-18T17:43:34.593Z"
+  },
+  "__v": 0
+}]
