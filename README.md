@@ -9,22 +9,17 @@
 
 <p align="justify">
 
-Iniciando uma nova jornada no mundo do NodeJS com o TypeScript, meu superior me passou um desafio para criar um CRUD com acesso ao banco de dados para cadastrar infração e o infrator de trânsito.
-
-O projeto foi idealizado para saber quem e quando e que tipo de multa e infrações cada colaborador levou em seus respectivos veículos de propriedade da empresa.
-  
-![Cadastro](././img/cadastro.png)
-</p>
+Iniciando uma nova jornada no mundo do NodeJS com o TypeScript, numa oportunidade da empresa MJV para desenvolver uma aplicação em NodeJS 
 
 ## Funcionalidades
 
-✅ `Funcionalidade 1:` Cadastrar colaborador que cometeu a infração de trânsito
+✅ `Funcionalidade 1:` Cadastrar Pessoa e Cardapio 
 
-✅ `Funcionalidade 2:` Listar os colabnoradores que cometeram as multas 
+✅ `Funcionalidade 2:` Listar Pessoa e Cardapio  
 
-✅ `Funcionalidade 3:` Atualizar os dados caso haja alguma divergência ou erro de informação
+✅ `Funcionalidade 3:` Atualizar Pessoa e Cardapio 
 
-✅ `Funcionalidade 4:` Deletar caso o colaborador já tenha acertado com os orgãos resónsáveis.
+✅ `Funcionalidade 4:` Deletar Pessoa e Cardapio 
 
 ## Aplicação
 
